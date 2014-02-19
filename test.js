@@ -1,21 +1,5 @@
-arrayof
-=======
-
-Array.of  for older browsers and node compat.
-
-
-[![browser support](https://ci.testling.com/miketheprogrammer/arrayof.png)](https://ci.testling.com/miketheprogrammer/arrayof)
-
-
-
-```javascript
-npm install arrayof
-```
-
-
-```javascript
 var test = require('tape');
-var arrayOf = require('arrayof');
+var arrayOf = require('./index');
 test('Array#of Exists', function (t) {
     t.assert(Array.of !== undefined);
     t.end();
@@ -39,4 +23,3 @@ test('arrayOf return the correct array', function(t) {
     t.same(result, expect);
     t.end();
 });
-```

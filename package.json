@@ -1,0 +1,43 @@
+{
+  "name": "arrayof",
+  "version": "0.1.0",
+  "description": "Array#of for older browsers and node compat",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=* node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miketheprogrammer/arrayof.git"
+  },
+  "keywords": [
+    "base64",
+    "b64",
+    "encode",
+    "decode",
+    "buffer"
+  ],
+  "testling": {
+    "files": "test.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "author": "Michael Hernandez -- michael.hernandez1988@gmail.com",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/miketheprogrammer/arrayof/issues"
+  },
+  "homepage": "https://github.com/miketheprogrammer/arrayof",
+  "devDependencies": {
+    "debug": "~0.7.4",
+    "tape": "~2.4.2"
+  }
+}
