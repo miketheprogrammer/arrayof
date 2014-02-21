@@ -40,3 +40,6 @@ test('arrayOf return the correct array', function(t) {
     t.end();
 });
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/arrayof/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
